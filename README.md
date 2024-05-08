@@ -7,7 +7,7 @@ In this case study, I delved into a company with diversified ventures across var
 
 #1 - **Extract, Load, Transform (ELT)**:
 I began by downloading the dataset from the provided link **https://drive.google.com/drive/folders/1eplz7vmnNG67KECek0CUAyFaVxm4ngc2?usp=sharing**
-and initiated the Extract-Load-Transform (ELT) process. Leveraging Power BI's capabilities, I extracted the data, loaded it into the Power BI environment, and meticulously transformed it. Using Power Query Editor, I cleaned unused or erroneous rows, rectified datatype discrepancies, and resolved any other data-related issues to ensure data accuracy and consistency.
+and initiated the Extract-Load-Transform (ELT) process. Leveraging Power BI's capabilities, I extracted the data, loaded it into the Power BI environment, and transformed it. Using **Power Query Editor**, I cleaned unused or erroneous rows, rectified datatype discrepancies, and resolved any other data-related issues to ensure data accuracy and consistency.
 
 #2 - **Data Modeling**:
 Given the normalized database structure, with multiple tables representing distinct data points, I utilized Power BI's data modeling capabilities to establish coherent relationships among these tables. Leveraging Power BI's Relationship View, I defined and managed relationships, ensuring that the final schema reflected a cohesive structure facilitating seamless data interaction.
