@@ -59,10 +59,10 @@ Month - November
 Amount - 48,286
 
 - The global business head is always on the lookout to expand the business to various new industries in existing regions where penetration is low.
-For territories SC, NC, GA, OH and KY, what is the total number of units sold and out of it, much is the units sold for the Kids category?
+For territories SC, NC, GA, OH and KY, what is the total number of units sold? 
 Answer - 
 Total Number of Units Sold: 169,010 units (169.01K)
-Units Sold for the Kids Category: 21,000 units (21.00K)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
