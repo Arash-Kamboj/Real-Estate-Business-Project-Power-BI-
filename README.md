@@ -3,7 +3,7 @@
 Business Case:
 In this case study, I delved into a company with diversified ventures across various product ranges and a prominent presence in the real estate sector. As the global business head of the company, I took the initiative to develop a comprehensive dashboard using Power BI to monitor critical metrics related to  nine business unit managers, products, sales, quantities sold, and gross margins (GM).
 
-Instructions:
+Steps:
 
 #1 - Extract, Load, Transform (ELT):
 I began by downloading the dataset from the provided link https://drive.google.com/drive/folders/1eplz7vmnNG67KECek0CUAyFaVxm4ngc2?usp=sharing
@@ -30,7 +30,10 @@ Developed a table chart, presenting the sum of Gross Margin for two distinct sce
 #7 - Drill Down Capability for Rent Analysis:
 Utilizing Power BI's drill-down capabilities, I implemented a hierarchical structure ranging from Year to Quarter to Month levels for analyzing total rent obtained over time. I plotted charts with interactive drill-down functionality, enabling in-depth analysis and visualization.
 
-By leveraging Power BI's robust features and capabilities, the developed dashboard aims to offer actionable insights and facilitate informed decision-making for the company's leadership and stakeholders.
+The developed dashboard aims to offer actionable insights and facilitate informed decision-making for the company's leadership and stakeholders.
+![Real State Busniess project ](https://github.com/Arash-Kamboj/Real-Estate-Business-Project-Power-BI-/assets/156613048/78460da7-917b-4e15-9e1a-ef7167aa85c4)
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
