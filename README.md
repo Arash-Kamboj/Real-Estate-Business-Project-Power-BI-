@@ -1,9 +1,9 @@
 # Real-Estate-Business-Project-Power-BI-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Business Case:
-In this case study, I delved into a company with diversified ventures across various product ranges and a prominent presence in the real estate sector. As the global business head of the company, I took the initiative to develop a comprehensive dashboard using Power BI to monitor critical metrics related to  nine business unit managers, products, sales, quantities sold, and gross margins (GM).
+In this case study, I delved into a company with diversified ventures across various product ranges and a prominent presence in the real estate sector. The company’s global business head wants to use a dashboard that helps to track key metrics about their nine business unit managers (executives), products, Sales, Quantities sold, and gross margins (GM).
 
-Steps:
+**Steps:**
 
 #1 - **Extract, Load, Transform (ELT)**:
 I began by downloading the dataset from the provided link **https://drive.google.com/drive/folders/1eplz7vmnNG67KECek0CUAyFaVxm4ngc2?usp=sharing**
@@ -16,16 +16,20 @@ Given the normalized database structure, with multiple tables representing disti
 
 
 #3 - **Visual Level Filters with Slicer**:
-Utilizing Power BI's visualization tools, I implemented visual level filters using slicers. Leveraging Power BI's Slicer Visualization, I configured slicers with multi-selection options and included a "Select All" option, enhancing user flexibility and analytical depth.
+After ensuring data quality and consistency, I utilized Power BI's visualization tools and implemented visual level filters using slicers. I configured slicers with multi-selection options and included a "Select All" option, enhancing user flexibility and analytical depth.
 
 #4 - **Donut Chart for Gross Margin Contribution**:
-I created a donut chart, visually representing the percentage contribution of Gross Margin to Total Gross Margin. Leveraging **Power BI's DAX** (Data Analysis Expressions) language, I computed Total Sales using the **Total Sales =  (Sum_Markdown_Sales_Dollars * Sum_Markdown_Sales_Units) + (Sum_Regular_Sales_Dollars * Sum_Regular_Sales_Units)** formula, incorporating both markdown and regular sales data.
+After that, created a donut chart, visually representing the percentage contribution of Gross Margin to Total Gross Margin. Leveraging **Power BI's DAX** (Data Analysis Expressions) language, I computed Total Sales using the **Total Sales =  (Sum_Markdown_Sales_Dollars * Sum_Markdown_Sales_Units) + (Sum_Regular_Sales_Dollars * Sum_Regular_Sales_Units)** formula, incorporating both markdown and regular sales data.
 
 #5 - **Revenue and Expense Analysis**:
-Leveraging Power BI's analytical capabilities, I conducted a comprehensive analysis of revenue and expenses. Using DAX functions, I calculated Total Quantity (Units) by aggregating markdown and regular sales units. Focusing on the 'Home category' for high-margin transactions, I identified home sales with a gross margin exceeding 10% using Power BI's filtering and conditional formatting features.
+Leveraging Power BI's analytical capabilities, I conducted a comprehensive analysis of revenue and expenses. Using DAX functions,  calculated Total Quantity (Units) by aggregating markdown and regular sales units. 
+Management has an interest analysing newly launched 'Home category' for high margin transactions. So, focusing on the 'Home category' for high-margin transactions, I identified home sales with a gross margin exceeding 10% using Power BI's filtering and conditional formatting features.
 
 #6 - **Table Chart for Gross Margin Scenarios**:
-Developed a table chart, presenting the sum of Gross Margin for two distinct scenarios based on sales data. Leveraging DAX language, I computed the Gross Percentage, indicating the proportion of Gross Margin attributed to Scenario 1 transactions.
+Developed a table chart, presenting the sum of Gross Margin for two distinct scenarios based on sales data. 
+Scenario 1 occurs when due to lesser inventory, all the ordered goods were not delivered to the customer.
+Scenario 2 occurs when all the ordered goods were delivered to the customer, thanks to optimized inventory levels maintained. 
+Management wants to know that out of total gross margin availed, what percentage is due to the transactions that occurred due to Scenario 1. Thus Gross Percentage is obtained by dividing Gross Margin of Scenario 1 by Sum of Gross Margin Amount, subsequently multiplying with 100.
 
 #7 - **Drill Down Capability for Rent Analysis**:
 Utilizing Power BI's drill-down capabilities, I implemented a hierarchical structure ranging from Year to Quarter to Month levels for analyzing total rent obtained over time. I plotted charts with interactive drill-down functionality, enabling in-depth analysis and visualization.
@@ -44,8 +48,8 @@ Some of the key findings from the Power BI dashboard for the Real Estate Busines
 - Highest sales year for the PA territory is 2014.
 - The strongest non-zero quarter for PA territory in 2014 is Quarter 2.
 
-- For the period years lower than 2010  during which stores have been opened, find out at which time (year, quarter, month) lowest rent was generated and how much?
-(Note - Consider only the quarter and months which are in the year having the lowest rent and having atleast value greater than 0)
+- For the period years lower than 2010  during which stores have been opened, at which time (year, quarter, month) lowest rent was generated and how much?
+(Note - Considering only the quarter and months which are in the year having the lowest rent and having atleast value greater than 0)
 Answer -  
 Year -  2007
 Amount - 5,19,902
@@ -54,12 +58,12 @@ Amount - 1,33,521
 Month - November 
 Amount - 48,286
 
--The global business head is always on the lookout to expand the business to various new industries in existing regions where penetration is low.
+- The global business head is always on the lookout to expand the business to various new industries in existing regions where penetration is low.
 For territories SC, NC, GA, OH and KY, what is the total number of units sold and out of it, much is the units sold for the Kids category?
 Answer - 
 Total Number of Units Sold: 169,010 units (169.01K)
 Units Sold for the Kids Category: 21,000 units (21.00K)
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
