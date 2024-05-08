@@ -33,6 +33,32 @@ Utilizing Power BI's drill-down capabilities, I implemented a hierarchical struc
 The developed dashboard aims to offer actionable insights and facilitate informed decision-making for the company's leadership and stakeholders.
 
 ![Real State Busniess project ](https://github.com/Arash-Kamboj/Real-Estate-Business-Project-Power-BI-/assets/156613048/78460da7-917b-4e15-9e1a-ef7167aa85c4)
+------------------------------------------
+**Analysis and key finding of the project**
+
+Some of the key findings from the Power BI dashboard for the Real Estate Business Project:
+
+- The territory with the highest sales is PA.
+- The total sales amount for the PA territory is 27.27 million.
+- The percentage contribution of PA territory sales to the total sales is 29.69%.
+- Highest sales year for the PA territory is 2014.
+- The strongest non-zero quarter for PA territory in 2014 is Quarter 2.
+
+- For the period years lower than 2010  during which stores have been opened, find out at which time (year, quarter, month) lowest rent was generated and how much?
+(Note - Consider only the quarter and months which are in the year having the lowest rent and having atleast value greater than 0)
+Answer -  
+Year -  2007
+Amount - 5,19,902
+Quarter - 3
+Amount - 1,33,521
+Month - November 
+Amount - 48,286
+
+-The global business head is always on the lookout to expand the business to various new industries in existing regions where penetration is low.
+For territories SC, NC, GA, OH and KY, what is the total number of units sold and out of it, much is the units sold for the Kids category?
+Answer - 
+Total Number of Units Sold: 169,010 units (169.01K)
+Units Sold for the Kids Category: 21,000 units (21.00K)
 
 
 
