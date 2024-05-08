@@ -1,7 +1,7 @@
 # Real-Estate-Business-Project-Power-BI-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Business Case:
-In this case study, I delved into a company with diversified ventures across various product ranges and a prominent presence in the real estate sector. The company’s global business head wants to use a dashboard that helps to track key metrics about their nine business unit managers (executives), products, Sales, Quantities sold, and gross margins (GM).
+In this case study, I delved into a company with diversified ventures across various product ranges and a prominent presence in the real estate sector. The company’s global business head wants to use a dashboard that helps to track key metrics about their nine business unit managers (executives), products, Sales, Quantities sold, and gross margins (GM) from the year 2005-2014.
 
 **Steps:**
 
@@ -43,10 +43,17 @@ The developed dashboard aims to offer actionable insights and facilitate informe
 Some of the key findings from the Power BI dashboard for the Real Estate Business Project:
 
 - The territory with the highest sales is PA.
-- The total sales amount for the PA territory is 27.27 million.
-- The percentage contribution of PA territory sales to the total sales is 29.69%.
-- Highest sales year for the PA territory is 2014.
+- The total sales amount for the PA territory is 27.27 million,percentage contribution of PA territory sales to the total sales is 33.06%
 - The strongest non-zero quarter for PA territory in 2014 is Quarter 2.
+- The territory with the lowest sales is SC, with 988.93K total sales.
+- Territory WV has the highest total sales of homes category with 8.93 Million of total homes sale and percentage contribution in this category of 33.29%
+- The sales in Home category went through various fluctuations which could be influenced by various factors such as market conditions, economic changes, or property 
+  management decisions.
+- **Notable Home Sales trend-**
+  **Increasing trend from 2006 to 2008.
+  Sharp decrease in 2010.
+  Rise again in 2012.
+  Decline in 2014.**
 
 - For the period years lower than 2010  during which stores have been opened, at which time (year, quarter, month) lowest rent was generated and how much?
 (Note - Considering only the quarter and months which are in the year having the lowest rent and having atleast value greater than 0)
